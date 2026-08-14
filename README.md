@@ -1,57 +1,103 @@
-# OLLAMA-UI
+# 🤖 OLLAMA-UI
 
-A lightweight web-based interface for interacting with local AI models through Ollama.
+<div align="center">
 
-This project allows you to run AI models directly on your computer and interact with them through a simple browser-based interface.
+<img src="images/screenshot.png" width="100%" alt="OLLAMA-UI Screenshot">
+
+### A modern, lightweight, and powerful web interface for local AI models powered by Ollama.
+
+Run AI completely on your own computer. No cloud. No API keys. No subscriptions.
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black)
+![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-green)
+![License](https://img.shields.io/badge/License-MIT-red)
+![Platform](https://img.shields.io/badge/Platform-Linux-orange)
+
+</div>
 
 ---
 
-## Preview
+## ✨ Overview
 
-> **Add your screenshot below.**
+**OLLAMA-UI** is a lightweight browser-based interface designed for interacting with **local AI models** through **Ollama**.
+
+Instead of using cloud-based AI services, this application allows you to run powerful language models directly on your computer while providing a clean and simple web interface.
+
+Perfect for:
+
+- 💻 Developers
+- 🎓 Students
+- 🔬 Researchers
+- 🤖 AI enthusiasts
+- 🐧 Linux users
+
+---
+
+## 📸 Preview
+
+> Add your screenshot inside the `images` folder.
+
+```text
+OLLAMA-UI
+├── images
+│   └── screenshot.png
+```
 
 ```markdown
 ![OLLAMA-UI Screenshot](images/screenshot.png)
 ```
 
-Create an `images` folder inside the project directory:
+---
 
-```text
-OLLAMA-UI
-├── app.py
-├── README.md
-├── images
-│   └── screenshot.png
-├── static
-└── templates
-```
+## 🚀 Features
+
+- ✅ Local AI chat
+- ✅ Ollama integration
+- ✅ Browser-based interface
+- ✅ File system commands
+- ✅ Lightweight Flask server
+- ✅ Fast response time
+- ✅ Keyboard shortcuts
+- ✅ Open-source
+- ✅ No API keys required
+- ✅ Run completely offline
 
 ---
 
-## Features
+## 🧠 Supported Models
 
-* Local AI chat
-* Ollama integration
-* Browser-based interface
-* File system commands
-* Lightweight Flask server
-* Fast response time
-* Keyboard shortcuts
-* Open-source
+The application works with any Ollama-compatible model.
 
----
-
-## Requirements
-
-Before running this project, install:
-
-* Python 3
-* Ollama
-* Git
+| Model | Installation Command |
+| --- | --- |
+| Qwen 2.5 Coder | `ollama pull qwen2.5-coder:3b` |
+| Llama 3 | `ollama pull llama3` |
+| Mistral | `ollama pull mistral` |
+| Gemma | `ollama pull gemma3` |
+| DeepSeek | `ollama pull deepseek-r1` |
+| CodeLlama | `ollama pull codellama` |
 
 ---
 
-## Install Ollama
+## 🖥️ Requirements
+
+Before installing the project, make sure the following software is installed:
+
+| Software | Required |
+| --- | --- |
+| Python 3 | ✅ |
+| Ollama | ✅ |
+| Git | ✅ |
+| Flask | ✅ |
+
+---
+
+# ⚙️ Installation
+
+---
+
+## 1️⃣ Install Ollama
 
 ### Ubuntu
 
@@ -59,17 +105,23 @@ Before running this project, install:
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-Check whether Ollama is installed correctly:
+Verify the installation:
 
 ```bash
 ollama --version
 ```
 
+Example:
+
+```text
+ollama version 0.xx.x
+```
+
 ---
 
-## Install the AI Model
+## 2️⃣ Install the AI Model
 
-The model used in this project:
+Install the model used in this project:
 
 ```bash
 ollama pull qwen2.5-coder:3b
@@ -81,26 +133,16 @@ Check installed models:
 ollama list
 ```
 
-Example output:
+Example:
 
 ```text
 NAME                 ID              SIZE
-qwen2.5-coder:3b     xxxxxxxxxxxx    1.9 GB
-```
-
-You can also install other models:
-
-```bash
-ollama pull llama3
-ollama pull mistral
-ollama pull gemma3
+qwen2.5-coder:3b     xxxxxxxxxxxx     1.9 GB
 ```
 
 ---
 
-## Clone the Repository
-
-Using Git:
+## 3️⃣ Clone the Repository
 
 ```bash
 git clone git@github.com:sayan08880/OLLAMA-UI.git
@@ -114,15 +156,15 @@ cd OLLAMA-UI
 
 ---
 
-## Install Python Dependencies
+## 4️⃣ Install Dependencies
 
-If your project contains a `requirements.txt` file:
+If a `requirements.txt` file exists:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-If not:
+Otherwise:
 
 ```bash
 pip install flask
@@ -130,19 +172,23 @@ pip install flask
 
 ---
 
-## Start the Ollama Server
+## ▶️ Running the Application
 
-Open a terminal:
+---
+
+### Start the Ollama Server
+
+Open a terminal and run:
 
 ```bash
 ollama serve
 ```
 
-Keep this terminal running.
+Keep the terminal running.
 
 ---
 
-## Test the AI Model
+### Test the AI Model
 
 Open another terminal:
 
@@ -150,30 +196,30 @@ Open another terminal:
 ollama run qwen2.5-coder:3b
 ```
 
-If the model responds, the installation was successful.
+If the model responds correctly, everything is working.
 
 ---
 
-## Start OLLAMA-UI
-
-Run:
+### Start OLLAMA-UI
 
 ```bash
 python app.py
 ```
 
-You should see something similar to this:
+Expected output:
 
 ```text
 ==================================================
   Ollama Web UI v3 + File System Commands
   http://localhost:5000
   Ctrl+Shift+N = New Chat
-  /allow = Grant file system access
+  /allow       = Grant file system access
 ==================================================
 ```
 
-Open your browser:
+---
+
+## 🌐 Open in Your Browser
 
 ```text
 http://localhost:5000
@@ -181,9 +227,9 @@ http://localhost:5000
 
 ---
 
-## Add the `aiui` Terminal Command
+## ⌨️ Create the `aiui` Terminal Command
 
-Create a new executable file:
+Create the executable file:
 
 ```bash
 sudo nano /usr/local/bin/aiui
@@ -194,19 +240,9 @@ Paste:
 ```bash
 #!/bin/bash
 
-cd /home/sayan/path/to/OLLAMA-UI
+cd /home/sayan/Desktop/OLLAMA-UI
 python app.py
 ```
-
-Replace:
-
-```text
-/home/sayan/path/to/OLLAMA-UI
-```
-
-with the actual location of your project.
-
-Save the file.
 
 Make it executable:
 
@@ -214,7 +250,7 @@ Make it executable:
 sudo chmod +x /usr/local/bin/aiui
 ```
 
-Now you can start the application from any directory:
+Now launch the application from anywhere:
 
 ```bash
 aiui
@@ -222,75 +258,155 @@ aiui
 
 ---
 
-## Keyboard Shortcuts
+## ⌨️ Keyboard Shortcuts
 
-| Shortcut         | Function                  |
-| ---------------- | ------------------------- |
-| Ctrl + Shift + N | Create a new chat         |
-| /allow           | Enable file system access |
-
----
-
-## Update the Project
-
-After changing any file:
-
-```bash
-git add .
-git commit -m "Update"
-git push
-```
+| Shortcut | Action |
+| --- | --- |
+| `Ctrl + Shift + N` | Create a new chat |
+| `/allow` | Enable file system access |
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 OLLAMA-UI
 ├── app.py
 ├── README.md
 ├── images
+│   └── screenshot.png
 ├── static
 │   ├── style.css
-│   ├── logo.png
-│   └── script.js
+│   ├── script.js
+│   └── logo.png
 └── templates
     └── index.html
 ```
 
 ---
 
-## Technologies Used
+## 🔄 Updating the Project
 
-* Python
-* Flask
-* HTML
-* CSS
-* JavaScript
-* Ollama
-* Local LLMs
+After making changes:
 
----
+```bash
+git add .
+git commit -m "Update project"
+git push
+```
 
-## Future Improvements
+Pull the latest changes:
 
-* [ ] Multiple model support
-* [ ] Dark mode
-* [ ] File upload
-* [ ] Voice input
-* [ ] Chat history
-* [ ] Theme customization
+```bash
+git pull
+```
 
 ---
 
-## Author
+## 🛠️ Technologies Used
+
+- Python
+- Flask
+- HTML5
+- CSS3
+- JavaScript
+- Ollama
+- Local LLMs
+
+---
+
+## 📋 Example Workflow
+
+```text
+Install Ollama
+        ↓
+Install AI Model
+        ↓
+Clone Repository
+        ↓
+Install Dependencies
+        ↓
+Start Ollama
+        ↓
+Run app.py
+        ↓
+Open localhost:5000
+        ↓
+Start Chatting
+```
+
+---
+
+## 🔮 Planned Features
+
+- [ ] Multiple AI model support
+- [ ] Dark mode
+- [ ] Chat history
+- [ ] File upload
+- [ ] Voice input
+- [ ] Drag-and-drop files
+- [ ] Theme customization
+- [ ] Model switching
+- [ ] Export conversations
+- [ ] Markdown support
+- [ ] Syntax highlighting
+- [ ] Multi-chat sessions
+- [ ] Mobile-friendly UI
+- [ ] Docker support
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+```bash
+# Fork the repository
+
+# Create a new branch
+
+git checkout -b feature-name
+
+# Commit your changes
+
+git commit -m "Add new feature"
+
+# Push your branch
+
+git push origin feature-name
+```
+
+---
+
+## ⭐ Support the Project
+
+If you like this project:
+
+- ⭐ Star the repository
+- 🍴 Fork the project
+- 🐛 Report bugs
+- 💡 Suggest new features
+
+---
+
+## 👨‍💻 Author
 
 **Sayan Mahalanabish**
 
-GitHub: `@sayan08880`
+GitHub: **@sayan08880**
 
 ---
 
-## License
+## 📜 License
 
-This project is released under the MIT License.
+This project is licensed under the **MIT License**.
+
+---
+
+<div align="center">
+
+### Built with ❤️ using Python + Flask + Ollama
+
+**Run AI locally. Own your data. Control your models.**
+
+</div>
