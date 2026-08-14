@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="images/screenshot.png" width="100%" alt="OLLAMA-UI Screenshot">
+<img src="OLLAMA-UI/IMG/OLLAMAUI.png" width="100%" alt="OLLAMA-UI Screenshot">
 
 ### A modern, lightweight, and powerful web interface for local AI models powered by Ollama.
 
@@ -32,38 +32,6 @@ Perfect for:
 - 🤖 AI enthusiasts
 - 🐧 Linux users
 
----
-
-## 📸 Preview
-
-> Add your screenshot inside the `images` folder.
-
-```text
-OLLAMA-UI
-├── images
-│   └── screenshot.png
-```
-
-```markdown
-![OLLAMA-UI Screenshot](images/screenshot.png)
-```
-
----
-
-## 🚀 Features
-
-- ✅ Local AI chat
-- ✅ Ollama integration
-- ✅ Browser-based interface
-- ✅ File system commands
-- ✅ Lightweight Flask server
-- ✅ Fast response time
-- ✅ Keyboard shortcuts
-- ✅ Open-source
-- ✅ No API keys required
-- ✅ Run completely offline
-
----
 
 ## 🧠 Supported Models
 
