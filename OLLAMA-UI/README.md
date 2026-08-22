@@ -1,4 +1,4 @@
-# Ollama Web UI v3 — Minimal, Fast, No Sidebar
+# Ollama Web UI
 
 Clean top-bar interface for local Ollama AI. No sidebar clutter.
 
