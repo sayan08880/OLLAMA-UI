@@ -1,6 +1,5 @@
 # Ollama Web UI
 
-Clean top-bar interface for local Ollama AI. No sidebar clutter.
 
 ## Features
 
