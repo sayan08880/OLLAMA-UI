@@ -6,7 +6,7 @@ A clean, fast, no-sidebar chat interface for local Ollama models — with file u
 
 | Normal Chat Mode | Web Search Mode |
 |---|---|
-| ![Normal mode](IMG/normal-mode.png) | ![Web search mode](IMG/web-search-mode.png) |
+| ![Normal mode](IMG/OLLAMAUI.png) | ![Web search mode](IMG/WEB.png) |
 
 ## Features
 
