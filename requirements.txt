@@ -1,0 +1,6 @@
+flask==3.0.3
+requests==2.32.3
+PyPDF2==3.0.1
+ddgs==9.4.1
+beautifulsoup4==4.12.3
+lxml==5.3.0
