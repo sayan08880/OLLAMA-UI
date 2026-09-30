@@ -10,7 +10,6 @@ A clean, fast, no-sidebar chat interface for local Ollama models — with file u
 
 ## Features
 
-- **No sidebar** — clean top bar with model status and controls
 - **File upload** — drag & drop or click the paperclip (PDF, TXT, code files)
 - **Streaming** — real-time token output
 - **Web Search** — click the globe button and the AI searches the internet before answering
