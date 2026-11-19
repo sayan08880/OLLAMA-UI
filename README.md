@@ -8,6 +8,8 @@ A locally hosted AI chat interface powered by **Ollama**, with streaming respons
 
 ## Screenshots
 
+## Version 1
+
 ### Main Ollama chat interface
 
 ![OLLAMA WEB UI main interface](IMG/OLLAMAUI.png)
@@ -16,6 +18,16 @@ A locally hosted AI chat interface powered by **Ollama**, with streaming respons
 
 ![OLLAMA WEB UI web search](IMG/WEB.png)
 
+## Version 2
+
+### Main Ollama chat interface
+![OLLAMA WEB UI main interface](IMG/V2.png)
+
+### Web search interface
+![OLLAMA WEB UI web search](IMG/V2-Web.png)
+
+### G mail Interrogation Interface
+![OLLAMA WEB UI web ](IMG/V2-GMail.png)
 ---
 
 ## Features
