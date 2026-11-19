@@ -2,7 +2,6 @@
 
 A locally hosted AI chat interface powered by **Ollama**, with streaming responses, file reading, Tavily web search, and Gmail tools.
 
-> **Version note:** The uploaded project folder is named `OLLAMA-UI-V2`, while the application banner and existing project README identify the interface as **OLLAMA WEB UI V4 + HULK**. This README calls the uploaded project V2 to match its folder name.
 
 ---
 
