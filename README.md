@@ -1,4 +1,4 @@
-# OLLAMA WEB UI V2 + HULK
+# OLLAMA WEB UI 
 
 A locally hosted AI chat interface powered by **Ollama**, with streaming responses, file reading, Tavily web search, and Gmail tools.
 
